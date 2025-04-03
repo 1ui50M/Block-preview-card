@@ -25,6 +25,7 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .contenido {
   display: flex;
@@ -39,7 +40,6 @@ body {
 }
 
 .illustration-article {
-  width: 245px;
   margin: 26px 20px;
   border-radius: 12px;
 }
@@ -95,4 +95,7 @@ body {
   font-family: "Figtree", sans-serif;
   font-size: 11px;
   font-weight: 800;
+}
+img, video {
+ 
 }
